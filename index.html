@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" type="stylesheet" />
+    <title>UNTREF E-commerce</title>
+  </head>
+  <body class="w-full flex justify-center bg-slate-200">
+    <div
+      class="w-full lg:w-[70%] h-screen bg-slate-800 overflow-y-hidden shadow-lg"
+    >
+      <header class="text-white p-4">
+        <h1 class="text-2xl">Untref E-commerce</h1>
+      </header>
+      <div class="flex h-full">
+        <aside id="default-sidebar" class="w-64 h-full" aria-label="Sidebar">
+          <div class="h-full px-3 py-4 bg-white shadow-lg">
+            <ul class="space-y-2 font-medium">
+              <li>
+                <a
+                  href="/index.html"
+                  class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                >
+                  <svg
+                    class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 18 20"
+                  >
+                    <path
+                      d="M17 5.923A1 1 0 0 0 16 5h-3V4a4 4 0 1 0-8 0v1H2a1 1 0 0 0-1 .923L.086 17.846A2 2 0 0 0 2.08 20h13.84a2 2 0 0 0 1.994-2.153L17 5.923ZM7 9a1 1 0 0 1-2 0V7h2v2Zm0-5a2 2 0 1 1 4 0v1H7V4Zm6 5a1 1 0 1 1-2 0V7h2v2Z"
+                    />
+                  </svg>
+                  <span class="ml-3">Products</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="overflow-y-scroll p-8 mb-16 no-scrollbar bg-slate-50">
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Product cards will be displayed here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
