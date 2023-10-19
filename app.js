@@ -1,6 +1,6 @@
 const productContainer = document.querySelector(".grid");
 
-// Obtén los productos desde el archivo JSON (products.json) y crea las tarjetas
+// Get products from json file
 fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
@@ -10,7 +10,7 @@ fetch("data.json")
     });
   });
 
-// Función para crear una tarjeta de producto
+// Create card for each product
 const createProductCard = (product) => {
   const card = document.createElement("div");
 

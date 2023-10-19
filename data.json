@@ -3,35 +3,35 @@
     "id": 1,
     "name": "Mouse Gamer Makkax K3 Black",
     "description": "K3 Ratón con cable USB de 4 botones 7 colores que iluminan Ratones de juego ajustables de 1600 ppp",
-    "price": 5.999,
+    "price": 6000,
     "image": "assets/mouse.jpg"
   },
   {
     "id": 2,
-    "name": "Teclado Gamer Constrictor Melanogaster Antighosting",
+    "name": "Teclado Gamer Constrictor Melanogaster",
     "description": "Teclado Constrictor de alto rendimiento permite que puedas disfrutar de horas ilimitadas de juegos.",
-    "price": 6.999,
+    "price": 7000,
     "image": "assets/keyboard.jpg"
   },
   {
     "id": 3,
-    "name": "Auricular Vincha Gamer Microfono Sonido Hd Rgb Usb",
+    "name": "Auricular Vincha Gamer Microfono",
     "description": "¡Experimentá la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida.",
-    "price": 25,
+    "price": 28000,
     "image": "assets/headphones.jpg"
   },
   {
     "id": 4,
-    "name": "Product 3",
+    "name": "Controlador PS5",
     "description": "Description of Product 3",
-    "price": 25,
+    "price": 100000,
     "image": "assets/controller.jpg"
   },
   {
     "id": 5,
     "name": "Silla gamer",
     "description": "Description of Product 3",
-    "price": 25,
+    "price": 85000,
     "image": "assets/chair.jpg"
   }
 ]
