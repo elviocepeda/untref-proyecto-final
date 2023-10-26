@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css" type="stylesheet" />
-    <title>UNTREF E-commerce: Detalles del producto</title>
+    <title>UNTREF E-commerce: Carrito de compras</title>
   </head>
   <body class="w-full flex justify-center bg-slate-200">
     <div
       class="w-full lg:w-[70%] h-screen bg-slate-800 overflow-y-hidden shadow-lg"
     >
       <header class="text-white p-4">
-        <h1 class="text-2xl">Untref E-commerce: Detalles del producto</h1>
+        <h1 class="text-2xl">Untref E-commerce: Carrito de compras</h1>
       </header>
       <div class="flex h-full">
         <aside id="default-sidebar" class="md:w-64 h-full" aria-label="Sidebar">
@@ -62,22 +62,40 @@
         <div
           class="w-full overflow-y-scroll p-8 mb-16 no-scrollbar bg-slate-50"
         >
-          <div
-            class="flex flex-col gap-4 rounded-lg bg-white shadow hover:shadow-md p-6"
-          >
-            <div id="product-detail">
-              <!-- Product details will be displayed here  -->
+          <div class="p-4">
+            <div class="flex justify-between">
+              <h2 class="text-xl">Shopping Cart</h2>
+              <div class="flex items-center gap-4">
+                <h2
+                  id="total-amount"
+                  class="text-xl font-semibold text-slate-600 mr-4"
+                >
+                  <!-- Total amount will be displayed here  -->
+                </h2>
+                <button
+                  id="payment-action"
+                  class="bg-sky-500 text-white px-4 py-3 rounded"
+                >
+                  Pagar
+                </button>
+                <button
+                  id="delete-cart"
+                  class="bg-sky-500 text-white px-4 py-3 rounded"
+                >
+                  Eliminar todo
+                </button>
+              </div>
             </div>
-            <button
-              id="add-to-cart"
-              class="bg-sky-500 text-white px-4 py-3 ml-auto rounded"
-            >
-              Agregar al carrito
-            </button>
+            <ul id="cart" class="mt-4">
+              <!-- Cart items will be displayed here -->
+            </ul>
+            <h4 id="empty-cart-message" class="text-red-800">
+              Aún no hay productos en tu carrito.
+            </h4>
           </div>
         </div>
       </div>
     </div>
-    <script type="module" src="product.js"></script>
+    <script type="module" src="cart.js"></script>
   </body>
 </html>
